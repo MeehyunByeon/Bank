@@ -7,12 +7,15 @@
 <title>transferResult.jsp</title>
 </head>
 <body>
+	<h2>Transfer Result</h2><br>
 	<%
 		String result = (String)request.getAttribute("result");
 		if(result == null)
 		{
 	%>
-			${id } -> ${rId } :  ${money } | ${tMoney }
+			<h3>${id } -> ${rId }</h3><br> 
+			<h3>Transfer : ${money }</h3><br>
+			<h3>Balance : ${tMoney }</h3>
 	<%	}else{
 		out.print(result);
 		}

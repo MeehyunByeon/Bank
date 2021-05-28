@@ -7,7 +7,9 @@
 <title>queryResult.jsp</title>
 </head>
 <body>
-	${id } | ${money }
+	<h2>Query Result</h2><br>
+	<h3>ID : ${id }</h3><br>
+	<h3>Balance : ${money }</h3><br>
 	<%@ include file="homeMenu.jsp" %>
 </body>
 </html>

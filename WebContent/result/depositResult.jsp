@@ -7,7 +7,10 @@
 <title>depositResult.jsp</title>
 </head>
 <body>
-	${id } | ${money } | ${tMoney }
+	<h2>Deposit Result</h2><br>
+	<h3>ID : ${id }</h3><br>
+	<h3>Deposit Amount : ${money }</h3><br>
+	<h3>Balance : ${tMoney }</h3>
 	<p>
 	<%@ include file="homeMenu.jsp" %>
 </body>

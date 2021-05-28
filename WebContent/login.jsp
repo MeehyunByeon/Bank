@@ -7,6 +7,7 @@
 <title>login.jsp</title>
 </head>
 <body>
+	<h2>LogIn</h2><br>
 	<form action="login.do" method="put">
 		ID : <input type="text" name="id" /> <br>
 		PASSWORD : <input type="password" name="pwd" /> <br>

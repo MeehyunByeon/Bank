@@ -7,6 +7,7 @@
 <title>transfer.jsp</title>
 </head>
 <body>
+	<h2>Transfer</h2><br>
 	<form action="search.do" method="post">
 		Receiver ID : <input type="text" name="id" /> <br>
 		<input type="submit" value="SEARCH" />

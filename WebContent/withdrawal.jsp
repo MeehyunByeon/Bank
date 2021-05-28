@@ -7,7 +7,8 @@
 <title>withdrawal.jsp</title>
 </head>
 <body>
-	Total Money : ${money }
+	<h2>Withdrawal</h2><br>
+	<h3>Total Money : ${money }</h3>
 	<p>
 	<form action="withdrawal.do" method="put">
 		Money : <input type="text" name="money" /> <br>

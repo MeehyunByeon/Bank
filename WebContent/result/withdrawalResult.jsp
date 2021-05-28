@@ -7,12 +7,16 @@
 <title>withdrawalResult.jsp</title>
 </head>
 <body>
+	<h2>Withdrawal Result</h2>
+
 	<%
 		String result = (String)request.getAttribute("result");
 		if(result == null)
 		{
 	%>
-			${id } | ${money } | ${tMoney }
+			<h3>ID : ${id }</h3><br>
+			<h3>Withdrawal Money : ${money }</h3><br>
+			<h3>Balance : ${tMoney }</h3>
 	<%	}else{
 		out.print(result);
 		}
